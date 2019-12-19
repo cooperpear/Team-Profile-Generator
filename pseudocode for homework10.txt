@@ -1,0 +1,10 @@
+Prompt user for input about team manager
+
+Prompt user for input about team members
+
+Need to build constructor function for 4 classes
+Employee
+Engineer
+Intern
+Manager
+
