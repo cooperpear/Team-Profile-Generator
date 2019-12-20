@@ -3,6 +3,8 @@ var fs = require("fs");
 var inquirer = require("inquirer");
 const Engineer = require("./lib/Engineer");
 const returnengineer = require("./templates/returnengineer");
+const returnmanager = require("./templates/returnmanager");
+const returnintern = require("./templates/returnintern");
 const back = require("./templates/back");
 const front = require("./templates/front");
 const Intern = require("./lib/Intern");
@@ -15,8 +17,7 @@ fs.appendFile("./output/index.html", data, function (err, res) {
   if (err)
     console.log("Error");
 
-  else
-    promptUser();
+  
 })
 
 function promptUser() {
