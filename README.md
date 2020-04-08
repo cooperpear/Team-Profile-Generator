@@ -1,35 +1,21 @@
-# READ ME - Developer Profile Generator
+# READ ME - Note Taker
 
-Developer Profile Generator takes in user inputs and generates a pdf file with the following output:
+Note Taker takes in user inputs via an HTML page. It utilizes both front and back end. It provides a server.js file that will run an express server for you. It then generates a list of recorded notes and the ability to add a new note, delete an old note, or view all notes. 
 
-* Profile image
-* Team member name
-* Team member ID
-* Team member email
-* MANAGER office number
-* INTERN school
-* ENGINEER github
+ deployed to Heroku if neccessary. 
 
-
-## Installation
+## Installation & Usages
 
 In command line:
-Use node.js to access app.js
+Navigate to root folder.
+Use npm install to install your packages. 
+Run node server.js to initiate a listening server on port 8080.
+Navigate to localhost:8080 in your web browser to begin. 
+
 
 ```bash
-currentdirectory/node app.js
+Homework11/server.js
 ```
-
-## Usage
-
-Install node requirements
-run (node) app.js
-
-In command line:
-Enter your team member type
-Enter your team member user data via onscreen prompts
-
-Will automatically write html file in output directory. 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -37,4 +23,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-Copyright Cooper is a badass 2019
+Copyright 2019
