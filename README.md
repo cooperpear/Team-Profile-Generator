@@ -5,9 +5,9 @@ Team Profile Generator is a node package demonstration. It begins with the user 
 This is a command line program so it is not deployed. Download the files, install your node packages, and then run (node app.js) to begin user input prompt. Output view to web browser.
 
 ## Built With
-HTML5
-Bootstrap
-Node.js
+HTML5<br>   
+Bootstrap<br>
+Node.js<br>
 Javascript
 
 ## Node.js packages used:
